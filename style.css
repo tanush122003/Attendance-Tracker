@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main
+{
+    background-image: url(images/bgattd.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#heading
+{
+    margin-top: 8%;
+    font-size: 42px;
+}
+
+#textlable
+{
+    color: white;
+}
+
+#presentStudents
+{
+    background-color: rgba(0, 0, 0, 0.689);
+    color: white;
+}
+
+#btn
+{
+    width: 100px;
+    background-color: gold;
+    border-radius: 50px;
+    font-weight: 900;
+    transition: transform 0.5s;
+}
+
+#btn:hover
+{
+    transition-timing-function: ease-in-out;
+    transform: scale(1.125);
+}
+
+#heading2
+{
+    margin-top: 8%;
+    font-size: 30px;
+}
+
+#absenteesList
+{
+    margin-bottom: 40px;
+    margin-inline-start: 15%;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.689);
+    color: white;
+    width: 300px;
+    border: 2px solid gold;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absentees Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine&effect=fire-animation">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine&effect=neon">
+    <script src="script.js"></script>
+</head>
+<body id="main">
+    <h1 id="heading" class="font-effect-fire-animation" style="text-align: center;">Absentees Tracker</h1><br><br>
+    <form style="text-align: center;" id="attendanceForm">
+        <label id="textlable" for="presentStudents">Enter present students registration numbers:</label><br><br>
+        <textarea style="width: 340px;" id="presentStudents" cols="50" required></textarea><br><br>
+        <button id="btn" type="submit">Submit</button>
+    </form>
+    <h2 class="font-effect-neon" id="heading2" style="text-align: center;">Absentees</h2>
+    <ul style="justify-self: center; list-style-type: none;" id="absenteesList"></ul>
+</body>
+</html>
